@@ -27,15 +27,15 @@ of what each of the values mean.
 export const info = {
     firstName: "Javier",
     lastName: "Fonseca",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Desarrollador Full stack",
+    initials: "jf", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Desarrollador Back End",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: "💻",
-            text: "Ingeniero Electronico"
+            text: "Ingeniero Electrónico"
         },
         {
             emoji: '🗿',
@@ -81,11 +81,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Soy Javier Fonseca. Finalicé estudios de pregrado como Ingeniero Electrónico en la universidad Santo Tomás, sede Bogotá. Ejercí durante una decada como profesional de campo, sin embargo, mi pasión es la programación, por esto disfruto mi trabajo como desarrollador web. Desde mi experiencia he brindado soluciones a las necesidades de los usuarios a través de la tecnología, lo cual les ha permitido mejorar sus condiciones de vida.",
+    bio: "Soy Javier Fonseca. Finalicé estudios de pregrado como Ingeniero Electrónico en la universidad Santo Tomás, sede Bogotá. Ejercí durante una decada como profesional de campo, sin embargo, mi pasión es la programación, por esto disfruto mi trabajo como desarrollador back End. Desde mi experiencia he brindado soluciones a las necesidades de los usuarios a través de la tecnología, lo cual les ha permitido mejorar sus condiciones de vida.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python']
+            competentecon: ['javascript', 'nodejs', 'express', 'postgress', 'git', 'github', 'html5', 'css3'],
+            exposedTo: ['nest', 'react', 'python']
         }
     ,
     hobbies: [
@@ -93,10 +93,10 @@ export const info = {
             label: 'Leer',
             emoji: '📖'
         },
-        {
-            label: 'Orar',
-            emoji: '⛪'
-        },
+        //{
+        //    label: 'Orar',
+        //    emoji: '⛪'
+        //},
         {
             label: 'Viajar',
             emoji: '✈'
@@ -114,38 +114,37 @@ export const info = {
         //    emoji: '📥',
         //}
         
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
             title: "Project 1",
-            live: "https://portafolio-javierfonseca.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://pokedex-javierfonseca.netlify.app", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://pokedex-javierfonseca.netlify.app", 
+            source: "https://github.com/javierfonsi/pokedex", 
             image: mock1
         },
         {
             title: "Project 2",
-            live: "https://portafolio-javierfonseca.netlify.app/",
-            source: "https://github.com/javierfonsi",
+            live: "https://apprestaurantapijr.herokuapp.com/api/v1/doc/",
+            source: "https://github.com/javierfonsi/restaurant_menu",
             image: mock2
         },
         {
             title: "Project 3",
-            live: "https://portafolio-javierfonseca.netlify.app/",
-            source: "https://github.com/javierfonsi",
+            live: "https://moviesappbyjrfl.herokuapp.com/api/v1/doc",
+            source: "https://github.com/javierfonsi/moviesApp-nodejs",
             image: mock3
         },
         {
             title: "Project 4",
-            live: "https://portafolio-javierfonseca.netlify.app/",
-            source: "https://github.com/javierfonsi",
+            live: "https://ecommerce-nodejs3.herokuapp.com/api/v1/doc",
+            source: "https://github.com/javierfonsi/ecomerce-nodejs",
             image: mock4
         },
         {
             title: "Project 5",
-            live: "https://portafolio-javierfonseca.netlify.app/",
-            source: "https://github.com/javierfonsi",
+            live: "https://todoapp-nodejsbyjf.herokuapp.com/api/v1/doc",
+            source: "https://github.com/javierfonsi/todo-nodejs/tree/main/api",
             image: mock5
         }
     ]
