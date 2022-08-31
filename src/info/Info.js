@@ -39,7 +39,7 @@ export const info = {
         },
         {
             emoji: '🗿',
-            text: 'Vivo en Guatavita - Cundinamarca'
+            text: 'Vivo en Chámeza - Casanare'
         },
         {
             emoji: "📧",
@@ -141,11 +141,11 @@ export const info = {
             source: "https://github.com/javierfonsi/ecomerce-nodejs",
             image: mock4
         },
-        {
-            title: "Project 5",
-            live: "https://todoapp-nodejsbyjf.herokuapp.com/api/v1/doc",
-            source: "https://github.com/javierfonsi/todo-nodejs/tree/main/api",
-            image: mock5
-        }
+        //{
+        //    title: "Project 5",
+        //    live: "https://todoapp-nodejsbyjf.herokuapp.com/api/v1/doc",
+        //    source: "https://github.com/javierfonsi/todo-nodejs/tree/main/api",
+        //    image: mock5
+        //}
     ]
 }
